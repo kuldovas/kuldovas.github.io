@@ -1,0 +1,80 @@
+/*Toto je komentar, slouzi pouze pro poznamky. Svoje styly piste pod nej*/
+/*Napriklad:*/
+/*h1 { color: red; }*/
+
+nav{
+	background-color: green;
+	padding: 15px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul{
+	text-align: center;
+}
+
+li{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-weight: bold;
+}
+
+ li a {
+ 	color: white;
+ }
+
+ li a:hover { 
+ 	color: skyblue; 
+ }
+
+
+li a.active {
+ 	text-decoration: none;
+ }
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+/*vymazání floatu v div pro další tagy*/
+.content:after{
+	 content:"";
+  display:block;
+  clear:both;
+}
+
+
+aside{
+	width: 300px;
+	float:left;
+}
+article{
+	width: 500px;
+	float:left;
+}
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	font-size: 15px;
+	font-style: italic;
+}
+
+img{
+	max-width: 100%;
+	width: 250px;
+	height: 250px;
+}
+
+footer{
+	border-top: 1px solid green;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	}
